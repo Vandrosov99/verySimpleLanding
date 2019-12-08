@@ -1,0 +1,164 @@
+/* Utility */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    /* overflow: hidden; */
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* header */
+
+.logoBox {
+    padding: 5px;
+    margin: 30px 0;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+/* showcase */
+.showcase {
+    background: url(img/showcase.jpg)no-repeat center/cover;
+    ;
+    height: 100%;
+
+}
+
+.showcase-content {
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.showcase-content h1 {
+    font-size: 54px;
+    margin: 85px 0;
+}
+
+.showcase-content>p {
+    padding: 0 100px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.1;
+    margin-bottom: 50px;
+}
+
+.showcase-content a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+.showcase-content .btn {
+    border-radius: 25px;
+    background: #181a1d;
+    font-size: 28px;
+
+    padding: 15px 45px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+}
+
+/* section 2 */
+.sectionTwo .container .zagolovok h2 {
+    font-size: 59px;
+    display: inline;
+    border-bottom: solid 2px #e2c13e;
+}
+
+.zagolovok {
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 45px;
+}
+
+/* section photos */
+
+.photos .flex-container .h3 {
+    font-size: 32px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.flex-container .item {
+    width: 50%;
+    text-transform: uppercase;
+}
+
+/* footer */
+.footer_items {
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    background: #181a1d;
+}
+
+.footer_items h3 {
+    font-size: 59px;
+    margin: 85px 0;
+}
+
+.footer_items p {
+    padding: 0 100px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.1;
+    margin-bottom: 50px;
+}
+
+/* for mobiles */
+
+@media(max-width:667px) {
+    .photos .flex-container .h3 {
+        font-size: 32px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 25px 0;
+    }
+
+    .flex-container .item {
+        width: 100%;
+        text-transform: uppercase;
+    }
+}
